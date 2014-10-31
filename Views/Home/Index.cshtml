@@ -33,48 +33,69 @@
 @section scripts
 {
     <script type="text/javascript">
-        var firstTimeStockAdded = true;
+        
+        var mavis = mavis || {};
+        mavis.trading = mavis.trading || {};
 
-        //Empty model
-        window.stocksViewModel = {
-            stocks: ko.observableArray([])
+        function StockQuote() {
+
         };
-        ko.applyBindings(stocksViewModel);
 
+        StockQuote.prototype = {
+
+            init : function() {
+                ko.applyBindings(this.stocksViewModel);
+            },
+
+            //Empty model
+            stocksViewModel: {
+                stocks: ko.observableArray([])
+            },
+
+            addStock: function(stockSymbol) {
+                $.ajax({
+                    url: '/Home/AddStock',
+                    data: { stockSymbol: stockSymbol},
+                    success: function (data) {
+                    },
+                    error: function (e, d) {
+                    }
+                });
+            },
+
+            refreshStockList: function() {
+                $.ajax({
+                    url: '/Home/GetStockList',
+                    data: {},
+                    success: function (data) {
+                        mavis.trading.StockQuote.stocksViewModel.stocks.removeAll();
+                        $.each(data, function (index, item) {
+                            mavis.trading.StockQuote.stocksViewModel.stocks.push(item);
+                        });
+                    }
+                });
+            }
+        }
+        
+        mavis.trading.StockQuote = new StockQuote();
+        mavis.trading.StockQuote.init();
+
+        var firstTimeStockAdded = true;
         $('#addStockQuote').off('click').on('click', function (e) {
-            $.ajax({
-                url: '/Home/AddStock',
-                data: { stockSymbol: $('#stockSymbol').val() },
-                success: function (data) {
-                    var stockViewModel = getStocksViewModal(data);
-                    ko.applyBindings(stockViewModel);
-                },
-                error: function(e,d) {
-                    alert(e);
-                }
-            });
+
+            mavis.trading.StockQuote.addStock($('#stockSymbol').val());
 
             if (firstTimeStockAdded) {
                 refreshStockList();
             }
-
             firstTimeStockAdded = false;
         });
 
         function refreshStockList() {
             //I would implement this as Signalr update so that it will push instead of pull.. due to lag of time I opted for each approach
             var seconds = 5;
-            setInterval(function() {
-                $.ajax({
-                    url: '/Home/GetStockList',
-                    data: {},
-                    success: function (data) {
-                        window.stocksViewModel.stocks.removeAll();
-                        $.each(data, function(index, item) {
-                            window.stocksViewModel.stocks.push(item);
-                        });
-                    }
-                });
+            setInterval(function () {
+                mavis.trading.StockQuote.refreshStockList();
             }, seconds * 1000);
         }
 
