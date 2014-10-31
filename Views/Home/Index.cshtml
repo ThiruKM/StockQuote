@@ -1,0 +1,87 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<div>
+    <label>Enter Stock Symbol</label>
+    <input id="stockSymbol" />
+    <input type="button" id="addStockQuote" value="Add"/>
+</div>
+<div id='stockList'>
+    <table width="500">
+        <tr>
+            <th style="text-align: left">
+                StockSymbol
+            </th>
+            <th style="text-align: left">
+                Price
+            </th>
+        </tr>
+        <tbody data-bind="foreach: stocks">
+            <tr>
+                <td>
+                    <div data-bind="text: stockSymbol"></div>
+                </td>
+                <td>
+                    <div data-bind="text: stockPrice"></div>
+                </td>
+            </tr>
+        </tbody>
+</table>
+</div>
+
+@section scripts
+{
+    <script type="text/javascript">
+        var firstTimeStockAdded = true;
+
+        //Empty model
+        window.stocksViewModel = {
+            stocks: ko.observableArray([])
+        };
+        ko.applyBindings(stocksViewModel);
+
+        $('#addStockQuote').off('click').on('click', function (e) {
+            $.ajax({
+                url: '/Home/AddStock',
+                data: { stockSymbol: $('#stockSymbol').val() },
+                success: function (data) {
+                    var stockViewModel = getStocksViewModal(data);
+                    ko.applyBindings(stockViewModel);
+                },
+                error: function(e,d) {
+                    alert(e);
+                }
+            });
+
+            if (firstTimeStockAdded) {
+                refreshStockList();
+            }
+
+            firstTimeStockAdded = false;
+        });
+
+        function refreshStockList() {
+            //I would implement this as Signalr update so that it will push instead of pull.. due to lag of time I opted for each approach
+            var seconds = 5;
+            setInterval(function() {
+                $.ajax({
+                    url: '/Home/GetStockList',
+                    data: {},
+                    success: function (data) {
+                        window.stocksViewModel.stocks.removeAll();
+                        $.each(data, function(index, item) {
+                            window.stocksViewModel.stocks.push(item);
+                        });
+                    }
+                });
+            }, seconds * 1000);
+        }
+
+        function Stock(stockSymbol, stockPrice) {
+            var self = this;
+            self.stockSymbol = stockSymbol;
+            self.stockPrice = stockPrice;
+        }
+    </script>
+}

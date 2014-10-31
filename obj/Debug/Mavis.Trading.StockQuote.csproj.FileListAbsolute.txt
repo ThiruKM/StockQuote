@@ -1,0 +1,66 @@
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\Mavis.Trading.StockQuote.dll.config
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\Mavis.Trading.StockQuote.dll
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\Mavis.Trading.StockQuote.pdb
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\Antlr3.Runtime.dll
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\EntityFramework.dll
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\Mavis.Trading.BusinessLayer.dll
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\Newtonsoft.Json.dll
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\System.Web.Mvc.dll
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\System.Web.Optimization.dll
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\System.Web.Providers.dll
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\System.Web.Razor.dll
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\System.Web.WebPages.dll
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\System.Web.WebPages.Razor.dll
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\WebGrease.dll
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\Mavis.Trading.DataAccess.dll
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\Mavis.Trading.BusinessLayer.pdb
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\EntityFramework.xml
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\Newtonsoft.Json.xml
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\System.Web.Mvc.xml
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\System.Web.Razor.xml
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\System.Web.WebPages.xml
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\System.Web.WebPages.Razor.xml
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\bin\Mavis.Trading.DataAccess.pdb
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\obj\Debug\Mavis.Trading.StockQuote.csprojResolveAssemblyReference.cache
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\obj\Debug\Mavis.Trading.StockQuote.dll
+C:\Users\Thiru\Documents\Visual Studio 2013\Projects\StockQuote\StockQuote\obj\Debug\Mavis.Trading.StockQuote.pdb
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\Mavis.Trading.StockQuote.dll.config
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\Mavis.Trading.StockQuote.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\Mavis.Trading.StockQuote.pdb
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\Antlr3.Runtime.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\EntityFramework.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\Mavis.Trading.BusinessLayer.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\Newtonsoft.Json.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Net.Http.Formatting.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Web.Http.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Web.Http.WebHost.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Web.Mvc.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Web.Optimization.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Web.Providers.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Web.Razor.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Web.WebPages.Deployment.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Web.WebPages.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Web.WebPages.Razor.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\WebGrease.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\Mavis.Trading.DataAccess.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\Mavis.Trading.BusinessLayer.pdb
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\EntityFramework.xml
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\Newtonsoft.Json.xml
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Net.Http.Formatting.xml
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Web.Http.xml
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Web.Http.WebHost.xml
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Web.Mvc.xml
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Web.Razor.xml
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Web.WebPages.xml
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Web.WebPages.Deployment.xml
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\System.Web.WebPages.Razor.xml
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\bin\Mavis.Trading.DataAccess.pdb
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\obj\Debug\Mavis.Trading.StockQuote.csprojResolveAssemblyReference.cache
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\obj\Debug\Mavis.Trading.StockQuote.dll
+C:\Users\tmedampalli\Dropbox\Technical\StockQuote\StockQuote\obj\Debug\Mavis.Trading.StockQuote.pdb
